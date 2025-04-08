@@ -1,5 +1,6 @@
 # AI-Text-Detection-using-ML
 This study presents an advanced AI text detection model that combines BERT embeddings with publication metadata to distinguish between human-written and AI-generated content. The model achieves impressive accuracy rates of 96% on validation data and 94% on test data, demonstrating robust performance in identifying AI-generated text.
+# Dataset Link: https://docs.google.com/spreadsheets/d/1Kk7ZbGFQLxGdaySDvagHUdvLbYgeKWO0wm2Ibk93XHk/edit?usp=sharing
 
 # Model Architecture and Features
 The model employs a hybrid approach that integrates multiple feature types to enhance detection capabilities. At its core, the system utilizes BERT (Bidirectional Encoder Representations from Transformers) to extract semantic embeddings from text samples. These embeddings capture the linguistic patterns and contextual relationships within the content. The model augments these text-based features with publication metadata, specifically author h-index proxies and journal impact factors, which serve as indicators of scholarly credibility. Additionally, basic text statistics such as word count provide supplementary signals for classification.
